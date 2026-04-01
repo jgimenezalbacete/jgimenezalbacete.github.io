@@ -1,25 +1,53 @@
-.bdmain {
-  background-color: #F0F0F0;
+.cuerpo {
+  background-color: #040833;
   margin: auto;
-  width: 40%;
+  width: 60%;
+  color: #FFFFFF;
+  text-align: left;
+  font-family: "Montserrat","Roboto Flex","Sans";
+  font-style: normal;
+  font-weight: 400;
 }
+
+.cabecera {
+  text-align: right;
+}
+
+.pie {
+  text-align: right;
+}
+
+
+a {
+  font-size:16px;
+  color: #FFFFFF;
+  text-decoration-line: none;
+}
+
+a:hover {
+  background-color: #D0D0D0;
+  color: #040833;
+}
+
 
 .nombre {
-  color: #080808;
-  text-align: center;
-  font-family: "Geom";
-  font-size:10vw;
+  font-size:24px;
+  font-weight: 600;
 }
 
-.profesion {
-  color: #808080;
-  text-align: center;
-  font-family: "Geom";
-  font-size:5vw;
+.seccion {
+  font-size:16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  line-height: 2;
 }
 
 .parrafo {
-  color: #404040;
-  font-family: "Geom"
-  font-size:5vw;
+  color: #D0D0D0;
+  font-size:16px;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  line-height: 2;
 }
