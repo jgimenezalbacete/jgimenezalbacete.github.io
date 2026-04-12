@@ -17,6 +17,11 @@
   text-align: right;
 }
 
+.siteurl {
+  margin-left: 16px;
+  display: inline-block;
+  text-align: left;
+}
 
 a {
   font-size:16px;
@@ -28,7 +33,6 @@ a:hover {
   background-color: #D0D0D0;
   color: #040833;
 }
-
 
 .nombre {
   font-size:24px;
@@ -44,10 +48,12 @@ a:hover {
 }
 
 .parrafo {
+  display: inline-block;
   color: #D0D0D0;
   font-size:16px;
   font-weight: 200;
   letter-spacing: 0.5px;
   word-spacing: 1px;
   line-height: 2;
+  text-align: justify;
 }
